@@ -7,9 +7,9 @@ function Nav() {
         <div>
           <a href="/">Home</a>
           <span className='seperator'>|</span>
-          <a href="/css/">Blog</a>
+          <a href="/blog/">Blog</a>
           <span className='seperator'>|</span>
-          <a href="/js/">Contact</a>
+          <a href="/contact/">Contact</a>
         </div>
       </nav>
     );
