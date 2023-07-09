@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 0;
+    margin-bottom: 50px;
+    border-bottom: 1px solid lightgrey;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: orange;
+}
+
+#home-logo {
+    font-size: 25px;
+}
+.seperator {
+    margin: 0 10px;
+    cursor: default;
+}
+
+.seperator:hover {
+    cursor: default;
+}
