@@ -1,9 +1,9 @@
-function Products() {
+function Blog() {
     return (
         <div>
-            <h1>Hello from Products!</h1>
+            <h1>Hello from Blog!</h1>
         </div>
     );
 }
 
-export default Products;
+export default Blog;

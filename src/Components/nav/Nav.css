@@ -15,6 +15,11 @@ a:hover {
     color: orange;
 }
 
+a.active {
+    border-bottom: 2px solid orange;
+    padding-bottom: 5px;
+}
+
 #home-logo {
     font-size: 25px;
 }
