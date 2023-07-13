@@ -8,9 +8,9 @@ export default function Nav() {
 			<div>
 				<CustomLink to="/">Home</CustomLink>
 				<span className='seperator'>|</span>
-				<CustomLink to="/blog/">Blog</CustomLink>
+				<CustomLink to="/blog">Blog</CustomLink>
 				<span className='seperator'>|</span>
-				<CustomLink to="/contact/">Contact</CustomLink>
+				<CustomLink to="/contact">Contact</CustomLink>
 			</div>
 		</nav>
 	);
