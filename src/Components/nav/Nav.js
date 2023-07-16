@@ -35,8 +35,12 @@ export default function Nav() {
                     </CustomLink>
                 </a>
                 <span className="seperator">|</span>
-                <CustomLink to="/blog" onClick={() => scrollToSection('blog', '/blog')}>
-                    Blog
+                <CustomLink to="/about" onClick={() => scrollToSection('about', '/about')}>
+					About
+                </CustomLink>
+				<span className="seperator">|</span>
+                <CustomLink to="/projects" onClick={() => scrollToSection('projects', '/projects')}>
+					Projects
                 </CustomLink>
                 <span className="seperator">|</span>
                 <CustomLink to="/contact" onClick={() => scrollToSection('contact', '/contact')}>

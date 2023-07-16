@@ -1,12 +1,13 @@
 import React from "react";
 import "./App.css";
-import "./styles/global.css";
+import "./Styles/global.css";
 import Nav from "./Components/nav/Nav";
 // import { Routes, Route } from "react-router-dom";
 
-import Home from "./Pages/Home";
-import Blog from "./Pages/Blog";
-import Contact from "./Pages/Contact";
+import Home from "./Components/home/Home";
+import Projects from "./Components/projects/Projects";
+import Blog from "./Components/about/About";
+import Contact from "./Components/contact/Contact";
 
 class App extends React.Component {
 	render() {
@@ -25,6 +26,7 @@ class App extends React.Component {
 				<div className="body-container">
 					<Home />
 					<Blog  />
+					<Projects />
 					<Contact />
 				</div>
 				{/* <Bio />
