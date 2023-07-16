@@ -1,8 +1,8 @@
 function Blog() {
     return (
-        <div>
+        <section id="blog">
             <h1>Hello from Blog!</h1>
-        </div>
+        </section>
     );
 }
 

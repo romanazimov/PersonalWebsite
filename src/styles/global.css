@@ -1,0 +1,11 @@
+.body-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(237, 237, 237);
+    height: 5000px;
+}

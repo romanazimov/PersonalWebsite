@@ -3,13 +3,14 @@
 
 import Bio from '../Components/bio/Bio';
 import Projects from "../Components/projects/Projects";
+import "../Components/home/Home.css"
 
 function Home() {
     return (
-        <div>
+        <section id="home">
             <Bio />
 			<Projects />
-        </div>
+        </section>
     );
 }
 
