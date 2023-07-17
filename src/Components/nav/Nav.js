@@ -25,15 +25,13 @@ export default function Nav() {
 
     return (
         <nav>
-            <a href="/">
+            {/* <a href="/"> */}
                 <span id="home-logo">Roman Azimov</span>
-            </a>
+            {/* </a> */}
             <div id="routes">
-                <a href="#home">
-                    <CustomLink to="/" onClick={() => scrollToSection('home', '/')}>
-                        Home
-                    </CustomLink>
-                </a>
+                <CustomLink to="/" onClick={() => scrollToSection('home', '/')}>
+                    Home
+                </CustomLink>
                 <span className="seperator">|</span>
                 <CustomLink to="/about" onClick={() => scrollToSection('about', '/about')}>
 					About

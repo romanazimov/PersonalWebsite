@@ -1,7 +1,8 @@
 .body-container {
-    max-width: 970px;
+    /* max-width: 970px; */
     margin: 0 auto;
-    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 body {
