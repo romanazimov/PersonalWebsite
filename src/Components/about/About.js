@@ -1,10 +1,10 @@
-import './About.css'
+import './About.scss'
 import coffee_work from '../../images/cofee_work.png'
 
 function About() {
     return (
         <section id="about">
-            <div className="cont-about">
+            <div className="container">
                 <img className="img-about" src={coffee_work} alt={""} />
                 <div>
                     <p className='title'>ABOUT ME</p>

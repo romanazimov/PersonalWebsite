@@ -1,0 +1,30 @@
+#about {
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+
+    .container {
+        padding: 100px 0;
+        max-width: 970px;
+        display: flex;
+        gap: 80px;
+        align-items: center;
+    }
+    
+    .img-about {
+        width: 350px;
+        border-radius: 50px;
+    }
+    
+    .title {
+        font-weight: 800;
+        font-size: 30px;
+        color: orange;
+    }
+    
+    .description {
+        line-height: 1.6;
+        font-weight: 500;
+        font-size: 17px;
+    }
+}
