@@ -5,8 +5,8 @@ nav {
     padding: 20px 40px;
     box-sizing: border-box;
     /* margin-bottom: 50px; */
-    box-shadow: 0 0 20px rgba(0,0,0,.09);
-    background-color: rgb(247, 247, 247);
+    box-shadow: 0 0 10px rgba(0,0,0,.09);
+    background-color: rgb(255, 255, 255);
     position: fixed;
     top: 0px;
     width: 100%;
@@ -28,8 +28,10 @@ a.active {
     padding-bottom: 5px;
 }
 
-#home-logo {
+.home-logo {
     font-size: 25px;
+    pointer-events: none;
+    user-select: none;
 }
 .seperator {
     margin: 0 10px;

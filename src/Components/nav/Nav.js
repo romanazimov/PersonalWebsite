@@ -26,7 +26,7 @@ export default function Nav() {
     return (
         <nav>
             {/* <a href="/"> */}
-                <span id="home-logo">Roman Azimov</span>
+                <span className="home-logo">Roman Azimov</span>
             {/* </a> */}
             <div id="routes">
                 <CustomLink to="/" onClick={() => scrollToSection('home', '/')}>

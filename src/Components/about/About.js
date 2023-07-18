@@ -5,7 +5,7 @@ function About() {
     return (
         <section id="about">
             <div className="cont-about">
-                <img className="img-about" src={coffee_work} alt={"logo"} />
+                <img className="img-about" src={coffee_work} alt={""} />
                 <div>
                     <p className='title'>ABOUT ME</p>
                     <p className='description'>As a full-stack developer, I bring extensive professional experience in back-end 
@@ -14,7 +14,7 @@ function About() {
                         end-to-end deployment and hosting configurations. Beyond my professional work, I'm
                         an avid front-end enthusiast, pursuing it as a hobby and showcasing my skills through
                         this personal website. When I'm not coding, you can find me exploring the great
-                        outdoors, hiking, running, or enjoying my time out on the water.</p>
+                        outdoors, exercising, or enjoying my time out on the water.</p>
                 </div>
             </div>
         </section>
