@@ -12,9 +12,26 @@
         margin-bottom: 20px;
     }
 
-    .content {
+    .content-container {
         display: flex;
         align-items: center;
+        justify-content: space-between;
+    }
+
+    .email-content,
+    .linkedin-content,
+    .github-content {
+        display: flex;
+        align-items: center;
+        
+        p {
+            margin: 0;
+            transition: .2s;;
+        }
+        
+        p.secondary-text:hover {
+            color: orange;
+        }
     }
 
     .icon-container {
@@ -30,7 +47,9 @@
         color: orange;
     }
 
-    .icon-email {
+    .icon-email,
+    .icon-linkedin,
+    .icon-github {
         font-size: 30px;
     }
 
