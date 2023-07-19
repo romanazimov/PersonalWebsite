@@ -2,17 +2,11 @@
     display: flex;
     flex-direction: column;
     .container {
-        margin: 200px 0;
+        // margin: 200px 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-    
-    .title {
-        font-weight: 800;
-        font-size: 30px;
-        color: orange;
     }
     
     .project-cont {
@@ -43,16 +37,7 @@
         justify-content: center;
     }
 
-    .proj-title {
-        font-size: 20px;
-        font-weight: 800;
-    }
-
-    .proj-desc {
-        font-size: 18px;
-        font-weight: 600;
-        line-height: 1.4;
-        color: rgb(85, 85, 85);
+    .secondary-text {
         text-align: center;
     }
 

@@ -9,11 +9,11 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 function Home() {
     return (
         <section id="home">
-            <div className="content">
+            <div className="container">
                 <div className="intro">
                     <div>
                         <h1>Hello, my name is Roman <img className="hand" src={hand} alt={""} /></h1>
-                        <p className="short-bio">I'm a full-stack software developer based out of New Jersey with a passion 
+                        <p className="secondary-text">I'm a full-stack software developer based out of New Jersey with a passion 
                         for creating innovative solutions and crafting seamless user experiences.</p>
                         <div className="bio-actions">
                             <a href={resume} download="roman_azimov_resume"><button className="resume-download">Download Resume</button></a>

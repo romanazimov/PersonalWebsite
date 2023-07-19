@@ -1,7 +1,7 @@
 import './Portfolio.scss';
 import gym from '../../images/proj_gym.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faHtml5, faCss3Alt, faJs, faUpRightFromSquare } from '@fortawesome/free-brands-svg-icons';
+import { faReact, faHtml5, faCss3Alt, faJs } from '@fortawesome/free-brands-svg-icons';
 
 function Portfolio() {
     return(
@@ -11,8 +11,8 @@ function Portfolio() {
                 <div className='project-cont'>
                     <img className="image" src={gym} alt={""} />
                     <div className='right-section'>
-                        <p className='proj-title'>Gym Landing Page</p>
-                        <p className='proj-desc'>
+                        <p className='primary-text'>Gym Landing Page</p>
+                        <p className='secondary-text'>
                             A simple yet effective single page application showcasing
                             the gym, memberships, trial and personal trainers that it
                             has to offer.

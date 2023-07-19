@@ -8,7 +8,7 @@ function About() {
                 <img className="img-about" src={coffee_work} alt={""} />
                 <div>
                     <p className='title'>ABOUT ME</p>
-                    <p className='description'>As a full-stack developer, I bring extensive professional experience in back-end 
+                    <p className='secondary-text'>As a full-stack developer, I bring extensive professional experience in back-end 
                         development along with front-end expertise in working with large datasets.  With 
                         a knack for design, I can transform ideas into engaging user experiences and handle 
                         end-to-end deployment and hosting configurations. Beyond my professional work, I'm

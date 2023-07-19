@@ -1,5 +1,40 @@
 #contact {
     background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 
-    
+    .container {
+        width: 970px;
+    }
+
+    .title {
+        margin-bottom: 20px;
+    }
+
+    .content {
+        display: flex;
+        align-items: center;
+    }
+
+    .icon-container {
+        width: 80px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+        // border: 1px solid black;
+        border-radius: 50px;
+        box-shadow: 0 0 10px rgba(0,0,0,.1);
+        color: orange;
+    }
+
+    .icon-email {
+        font-size: 30px;
+    }
+
+    .primary-text {
+        margin-bottom: 5px !important;
+    }
 }
