@@ -8,6 +8,7 @@ import Home from "./Components/home/Home";
 import Portfolio from "./Components/portfolio/Portfolio";
 import Blog from "./Components/about/About";
 import Contact from "./Components/contact/Contact";
+import Footer from "./Components/footer/Footer";
 
 class App extends React.Component {
 	render() {
@@ -28,6 +29,7 @@ class App extends React.Component {
 					<Blog  />
 					<Portfolio />
 					<Contact />
+					<Footer />
 				</div>
 				{/* <Bio />
 				<Projects /> */}

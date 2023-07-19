@@ -1,0 +1,19 @@
+footer {
+    background-color: rgb(79, 79, 79);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    
+    .container {
+        width: 970px;
+        display: flex;
+    }
+
+    .footer-text {
+        font-weight: 500;
+        font-size: 18px;
+        color: rgb(164, 164, 164);
+        display: flex;
+    }
+}

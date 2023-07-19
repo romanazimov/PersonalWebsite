@@ -11,7 +11,7 @@ h1 {
 body {
     margin: 0;
     background-color: #f4f4f4;
-    height: 5000px;
+    /* height: 5000px; */
 }
 
 p {
@@ -21,6 +21,7 @@ p {
 
 .container {
     margin: 200px 0;
+    /* width: 970px; */
 }
 
 .title {
