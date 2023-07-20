@@ -6,7 +6,7 @@ import Nav from "./Components/nav/Nav";
 
 import Home from "./Components/home/Home";
 import Portfolio from "./Components/portfolio/Portfolio";
-import Blog from "./Components/about/About";
+import About from "./Components/about/About";
 import Contact from "./Components/contact/Contact";
 import Footer from "./Components/footer/Footer";
 
@@ -26,7 +26,7 @@ class App extends React.Component {
 				</div> */}
 				<div className="body-container">
 					<Home />
-					<Blog  />
+					<About  />
 					<Portfolio />
 					<Contact />
 					<Footer />

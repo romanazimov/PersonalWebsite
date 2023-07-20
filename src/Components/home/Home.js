@@ -9,7 +9,7 @@ function Home() {
             <div className="container">
                 <div className="intro">
                     <div>
-                        <h1>Hello, my name is Roman <img className="hand" src={hand} alt={""} /></h1>
+                        <p className="greeting">Hello, my name is Roman <img className="hand" src={hand} alt={""} /></p>
                         <p className="secondary-text">I'm a full-stack software developer based out of New Jersey with a passion 
                         for creating innovative solutions and crafting seamless user experiences.</p>
                         <div className="bio-actions">

@@ -1,4 +1,4 @@
-import './Nav.css';
+import './Nav.scss';
 import { Link, useMatch, useResolvedPath, useNavigate } from "react-router-dom";
 
 export default function Nav() {
@@ -17,7 +17,7 @@ export default function Nav() {
         const isActive = useMatch({ path: resolvedPath.pathname, end: true });
 
         return (
-            <Link className={isActive ? "active" : ""} to={to} {...props}>
+            <Link className={isActive ? " active" : ""} to={to} {...props}>
                 {children}
             </Link>
         );
@@ -28,7 +28,7 @@ export default function Nav() {
             {/* <a href="/"> */}
                 <span className="home-logo">Roman Azimov</span>
             {/* </a> */}
-            <div id="routes">
+            <div className="routes">
                 <CustomLink to="/" onClick={() => scrollToSection('home', '/')}>
                     Home
                 </CustomLink>

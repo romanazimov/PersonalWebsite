@@ -7,6 +7,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        box-sizing: border-box;
+        padding: 0 20px;
     }
     
     .project-cont {
@@ -14,7 +16,7 @@
         width: 970px;
         border-radius: 15px;
         box-shadow: 0 0 20px rgba(0,0,0,.1);
-        padding: 25px;
+        padding: 20px;
         display: grid;
         grid-template-columns: 1.5fr 1fr;
         box-sizing: border-box;
@@ -35,6 +37,11 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        gap: 10px;
+    }
+
+    .primary-text {
+        margin-bottom: 10px;
     }
 
     .primary-text,
@@ -110,5 +117,23 @@
         background-color: rgba(255, 166, 0, 1);
         box-shadow: 0 0 5px rgba(0,0,0,.2);
         color: black;
+    }
+
+    @media (width < 900px) {
+        // margin: 60px 0;
+
+        .container {
+            margin: 60px 0;
+        }
+
+        .project-cont {
+            grid-template-columns: 1fr;
+            width: 100%;
+            margin: 0 20px;
+        }
+
+        .proj-tech {
+            justify-content: space-around;
+        }
     }
 }

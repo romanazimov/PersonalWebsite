@@ -14,18 +14,21 @@ nav {
     font-weight: 700;
 }
 
-a {
-    color: black;
-    text-decoration: none;
-}
-
-a:hover {
-    color: orange;
-}
-
-a.active {
-    border-bottom: 2px solid orange;
-    padding-bottom: 5px;
+.routes {
+    a {
+        color: black;
+        text-decoration: none;
+        transition: .2s;
+    }
+    
+    a:hover {
+        color: orange;
+    }
+    
+    a.active {
+        border-bottom: 2px solid orange;
+        padding-bottom: 5px;
+    }
 }
 
 .home-logo {
@@ -40,4 +43,14 @@ a.active {
 
 .seperator:hover {
     cursor: default;
+}
+
+@media (width < 800px) {
+    nav {
+        padding-left: 20px;
+    }
+
+    .routes {
+        display: none;
+    }
 }

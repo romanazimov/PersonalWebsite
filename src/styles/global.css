@@ -1,7 +1,5 @@
 .body-container {
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
+    display: grid;
 }
 
 h1 {
@@ -19,9 +17,13 @@ p {
     padding: 0;
 }
 
+section {
+    display: grid;
+    /* grid-template-columns: 1fr; */
+}
+
 .container {
     margin: 200px 0;
-    /* width: 970px; */
 }
 
 .title {
@@ -34,7 +36,6 @@ p {
 .primary-text {
     font-size: 20px;
     font-weight: 800;
-    margin-bottom: 20px;
 }
 
 .secondary-text {
@@ -42,5 +43,5 @@ p {
     font-size: 18px;
     line-height: 1.4;
     color: rgb(79, 79, 79);
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
