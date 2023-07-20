@@ -47,10 +47,15 @@ nav {
 
 @media (width < 800px) {
     nav {
-        padding-left: 20px;
+        
+        justify-content: center;
     }
 
-    .routes {
+    // .routes {
+    //     display: none;
+    // }
+
+    .home-logo {
         display: none;
     }
 }
