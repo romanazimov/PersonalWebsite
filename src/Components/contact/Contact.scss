@@ -3,11 +3,10 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    padding: 0 20px;
 
     .container {
         max-width: 970px;
-        // width: 100%;
-        padding: 0 20px;
         box-sizing: border-box;
     }
 
@@ -27,10 +26,10 @@
     .github-content {
         display: flex;
         align-items: center;
-        
+
         p {
             margin: 0;
-            transition: .2s;;
+            transition: .2s;
         }
         
         p.secondary-text:hover {
@@ -44,6 +43,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-shrink: 0;
         margin-right: 20px;
         // border: 1px solid black;
         border-radius: 50px;
