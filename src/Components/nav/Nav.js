@@ -25,11 +25,9 @@ export default function Nav() {
 
     return (
         <nav>
-            {/* <a href="/"> */}
-                <span className="home-logo">Roman Azimov</span>
-            {/* </a> */}
+            <span className="home-logo">Roman Azimov</span>
             <div className="routes">
-                <CustomLink to="/" onClick={() => scrollToSection('home', '/')}>
+                {/* <CustomLink to="/" onClick={() => scrollToSection('home', '/')}>
                     Home
                 </CustomLink>
                 <span className="seperator">|</span>
@@ -43,7 +41,34 @@ export default function Nav() {
                 <span className="seperator">|</span>
                 <CustomLink to="/contact" onClick={() => scrollToSection('contact', '/contact')}>
                     Contact
-                </CustomLink>
+                </CustomLink> */}
+                <div className='layout-desktop'>
+                    <ul>
+                        <li>
+                            <CustomLink to="/" onClick={() => scrollToSection('home', '/')}>
+                                Home
+                            </CustomLink>
+                        </li>
+                        <li>
+                            <CustomLink to="/about" onClick={() => scrollToSection('about', '/about')}>
+                                About
+                            </CustomLink>
+                        </li>
+                        <li>
+                            <CustomLink to="/portfolio" onClick={() => scrollToSection('portfolio', '/portfolio')}>
+                                Portfolio
+                            </CustomLink>
+                        </li>
+                        <li>
+                            <CustomLink to="/contact" onClick={() => scrollToSection('contact', '/contact')}>
+                                Contact
+                            </CustomLink>
+                        </li>
+                    </ul>
+                </div>
+                <div className='layout-mobile'>
+                    
+                </div>
             </div>
         </nav>
     );

@@ -14,9 +14,8 @@ class App extends React.Component {
 	render() {
 		return (
 			<>
-				<header className="header">
-					<Nav />
-				</header>
+				
+				<Nav />
 				{/* <div className="body-container">
 					<Routes>
 						<Route path="/" element={<Home />} />
@@ -31,12 +30,6 @@ class App extends React.Component {
 					<Contact />
 					<Footer />
 				</div>
-				{/* <Bio />
-				<Projects /> */}
-				{/* <img src={logo} alt={"logo"}/>  */}
-				{/* <p>Hello world!</p>
-				<MyButton message={'Hello World!'}/>
-				<Table characterData={characters} /> */}
 			</>
 		);
 	}
