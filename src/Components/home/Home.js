@@ -7,7 +7,7 @@ function Home() {
     return (
         <section id="home">
             <div className="container">
-                <div className="intro">
+                <div className="hero">
                     <div>
                         <p className="greeting">Hello, my name is Roman <img className="hand" src={hand} alt={""} /></p>
                         <p className="secondary-text">I'm a full-stack software developer based out of New Jersey with a passion 
