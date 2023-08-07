@@ -25,8 +25,8 @@ function Portfolio() {
                             <FontAwesomeIcon className="icon-javascript" icon={faJs} />
                         </div>
                         <div className='proj-links'>
-                            <a href="https://github.com/romanazimov" rel="noreferrer" target="_blank"><button className='btn-code'>Code</button></a>
-                            <a href="https://github.com/romanazimov" rel="noreferrer" target="_blank"><button className='btn-demo'>Demo</button></a>
+                            <a href="https://github.com/romanazimov/gym-app" rel="noreferrer" target="_blank"><button className='btn-code'>Code</button></a>
+                            <a href="https://gym.romanazimov.com/" rel="noreferrer" target="_blank"><button className='btn-demo'>Demo</button></a>
                         </div>
                     </div>
                 </div>
