@@ -12,7 +12,7 @@ function Portfolio() {
                         image={gymImage}
                         primaryText="GYM24"
                         secondaryText="A simple yet effective single page application showcasing the gym, perks, memberships, and team that it has to offer."
-                        technologies={['React', 'HTML', 'CSS', 'JavaScript']}
+                        technologies={['React', 'TypeScript']}
                         githubLink="https://github.com/romanazimov/gym-app"
                         demoLink="https://gym.romanazimov.com/"
                     />
