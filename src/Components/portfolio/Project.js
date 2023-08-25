@@ -4,7 +4,7 @@ import { HiExternalLink } from "react-icons/hi";
 import './Project.scss';
 
 const Project = (props) => {
-    const { image, primaryText, secondaryText, technologies, githubLink, demoLink } = props;
+    const { image, primaryText, secondaryText, githubLink, demoLink } = props;
 
     return (
         <div className="project-container">
