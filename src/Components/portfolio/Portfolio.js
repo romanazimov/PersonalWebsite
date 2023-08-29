@@ -1,5 +1,6 @@
 import './Portfolio.scss';
 import gymImage from '../../images/proj_gym.png'
+import dotnetImage from '../../images/dotnet-core.jpeg'
 import Project from './Project';
 
 function Portfolio() {
@@ -17,12 +18,12 @@ function Portfolio() {
                         demoLink="https://gym.romanazimov.com/"
                     />
                     {/* <Project
-                        image={gymImage}
-                        primaryText="[In Progress] Ecommerce Shop"
-                        secondaryText="Utilizing a decoupled approach, the React front-end communicates with the .NET API to handle payment processing with Stripe."
-                        technologies={['React', 'HTML', 'CSS', 'JavaScript']}
-                        githubLink="https://github.com/romanazimov/gym-app"
-                        demoLink="https://gym.romanazimov.com/"
+                        image={dotnetImage}
+                        primaryText="[IN PROGRESS] Ecommerce Shop API"
+                        secondaryText="The backend of the ecommerce app to handle users, purchase orders, authentication and authorization."
+                        technologies={['.NET Core', 'Entity FWK', 'PostgreSQL']}
+                        githubLink="https://github.com/romanazimov/"
+                        demoLink="https://romanazimov.com/"
                     /> */}
                 </div>
             </div>

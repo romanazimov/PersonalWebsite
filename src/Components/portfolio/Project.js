@@ -4,7 +4,13 @@ import { HiExternalLink } from "react-icons/hi";
 import './Project.scss';
 
 const Project = (props) => {
-    const { image, primaryText, secondaryText, githubLink, demoLink } = props;
+    const { image, primaryText, secondaryText, technologies, githubLink, demoLink } = props;
+
+    const technologyElems = technologies.map((technology, index) => (
+        <div className='tech-cont' key={index}>
+            <p>{technology}</p>
+        </div>
+    ));
 
     return (
         <div className="project-container">
@@ -13,12 +19,7 @@ const Project = (props) => {
                 <p className="primary-text">{primaryText}</p>
                 <p className="secondary-text">{secondaryText}</p>
                 <div className="proj-tech">
-                    <div className='tech-cont'>
-                        <p>React</p>
-                    </div>
-                    <div className='tech-cont'>
-                        <p>TypeScript</p>
-                    </div>
+                    {technologyElems}
                 </div>
                 <div className="proj-links">
                     <a href={githubLink} rel="noreferrer" target="_blank">
