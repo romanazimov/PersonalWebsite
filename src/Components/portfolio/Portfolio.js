@@ -17,14 +17,14 @@ function Portfolio() {
                         githubLink="https://github.com/romanazimov/gym-app"
                         demoLink="https://gym.romanazimov.com/"
                     />
-                    {/* <Project
+                    <Project
                         image={dotnetImage}
-                        primaryText="[IN PROGRESS] Ecommerce Shop API"
-                        secondaryText="The backend of the ecommerce app to handle users, purchase orders, authentication and authorization."
+                        primaryText="Ecommerce Candle API"
+                        secondaryText="The backend api of an ecommerce app to handle users, purchase orders, authentication (JWT) and authorization."
                         technologies={['.NET Core', 'Entity FWK', 'PostgreSQL']}
-                        githubLink="https://github.com/romanazimov/"
-                        demoLink="https://romanazimov.com/"
-                    /> */}
+                        githubLink="https://github.com/romanazimov/CandleApi"
+                        demoLink=""
+                    />
                 </div>
             </div>
         </section>

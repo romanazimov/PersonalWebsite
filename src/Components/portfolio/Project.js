@@ -12,6 +12,19 @@ const Project = (props) => {
         </div>
     ));
 
+    let demoLinkContent = null;
+
+    if (demoLink !== "") {
+        demoLinkContent = (
+            <a href={demoLink} rel="noreferrer" target="_blank">
+                <div className='action-container'>
+                    <p className='proj-action'>Demo</p>
+                    <HiExternalLink className='proj-icon'/>
+                </div>
+            </a>
+        );
+    }
+
     return (
         <div className="project-container">
             <img className="image" src={image} alt="" />
@@ -29,13 +42,7 @@ const Project = (props) => {
                             <AiFillGithub className='proj-icon'/>
                         </div>
                     </a>
-                    <a href={demoLink} rel="noreferrer" target="_blank">
-                        {/* <button className="btn-demo">Demo</button> */}
-                        <div className='action-container'>
-                            <p className='proj-action'>Demo</p>
-                            <HiExternalLink className='proj-icon'/>
-                        </div>
-                    </a>
+                    {demoLinkContent}
                 </div>
             </div>
         </div>
