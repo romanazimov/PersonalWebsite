@@ -88,6 +88,7 @@
     .proj-links {
         padding: 10px 20px;
         margin-top: 20px;
+        gap: 20px;
     }
 
     .action-container{
@@ -99,10 +100,6 @@
 
     .action-container:hover {
         color: orange;
-    }
-
-    .proj-links a:first-of-type{
-        margin-right: 20px;
     }
 
     .proj-action {

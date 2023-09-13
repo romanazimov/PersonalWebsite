@@ -28,10 +28,10 @@ section {
 }
 
 .title {
-    font-weight: 800;
+    font-weight: bold;
     font-size: 30px;
     color: orange;
-    margin: 0 0 20px 0;
+    margin-bottom: 20px;
 }
 
 .primary-text {
