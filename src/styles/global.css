@@ -20,7 +20,6 @@ p {
 
 section {
     display: grid;
-    /* grid-template-columns: 1fr; */
 }
 
 .container {
@@ -44,7 +43,6 @@ section {
     font-size: 18px;
     line-height: 1.4;
     color: rgb(79, 79, 79);
-    /* margin-bottom: 20px; */
 }
 
 a:link {
