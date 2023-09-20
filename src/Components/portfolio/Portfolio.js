@@ -13,9 +13,8 @@ function Portfolio() {
                     <Project
                         image={ecomCandleImage}
                         primaryText="[In Progress] Ecommerce Store"
-                        secondaryText="Utilizing a headless architecture, I am creating an ecommerce store. 
-                        Redux will be used for state management and data fetching. Stripe will also be used 
-                        for purchases."
+                        secondaryText="Utilizing a headless architecture, this ecommerce candle shop integrates 
+                        securely with the back-end for data management and Stripe for seamless payment processing."
                         technologies={['React+Vite', 'Redux', 'Stripe']}
                         githubLink="https://github.com/romanazimov/candle-app"
                         demoLink="https://candle.romanazimov.com/"
@@ -23,8 +22,8 @@ function Portfolio() {
                     <Project
                         image={swaggerApiImage}
                         primaryText="Ecommerce Candle API"
-                        secondaryText="The back-end api of an ecommerce app to handle users, purchase orders, 
-                        authentication (JWT) and authorization."
+                        secondaryText="The backend API for an ecommerce application to manage user data, 
+                        purchase orders, authentication using JWT, and authorization."
                         technologies={['.NET Core', 'Entity FWK', 'PostgreSQL']}
                         githubLink="https://github.com/romanazimov/CandleApi"
                         demoLink=""
