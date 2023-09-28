@@ -56,9 +56,6 @@ nav {
     @media (width < 750px) {
         z-index: 1000;
 
-        .container {
-        }
-
         ul {
             display: flex;
             flex-direction: column;
@@ -82,12 +79,8 @@ nav {
         }
 
         .hamburger:hover {
-            color: orange;
+            color: orange !important;
         }
-
-        // .nav-menu-cont {
-        //     display: none;
-        // }
 
         .nav-menu {
             position: absolute;
